@@ -1,0 +1,27 @@
+- dart pub global activate flutterfire_cli
+
+install nodejs 
+
+open windows powershell and run commands
+- dart pub global activate flutterfire_cli
+- Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+- npm install -g firebase-tools
+
+- firebase login
+
+- dart pub global activate flutterfire_cli
+
+======================================================================
+install dependencies
+- flutter pub add firebase_core
+- flutter pub add cloud_firestore
+- flutter pub add firebase_auth
+- flutter pub add firebase_storage
+
+void main() async {
+    WidgetsFlutterBinding.ensureInitialized();
+    await Firebase.initializeApp(
+        options : DefaultFirebaseOptions.currentPlatform,
+    );
+    runApp(MyApp);
+}
