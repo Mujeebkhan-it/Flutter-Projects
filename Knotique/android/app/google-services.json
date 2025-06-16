@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1093231399547",
+    "project_id": "knotique-68408",
+    "storage_bucket": "knotique-68408.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093231399547:android:9a7ed7f947d52c6c3748de",
+        "android_client_info": {
+          "package_name": "com.example.crochet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoshG58t7AExeAVgCuFeGk_dkHAae2Bh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
